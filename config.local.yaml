@@ -1,7 +1,7 @@
-# ALICONNECT
-client_id: 1-c9b05c80-4d2b-46c1-abfb-0464854dbd9a
+# SourceForce
+client_id: 3666189-7ed01c7f-f2d7-4e61-9af4-8134ac66b16d
 info:
-  title: Aliconnect
+  title: SourceForce
   description: One Source, One Truth
   version: 1.0.0
   contact:
@@ -9,23 +9,6 @@ info:
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
-# config:
-#   aim:
-#     scope:
-#       - name
-#       - email
-#       - phone_number
-#     auth:
-#       authorizationUrl: https://login.aliconnect.nl/api/oauth2
-#       tokenUrl: https://login.aliconnect.nl/api/token
-#     websocket:
-#       servers:
-#         - url: wss://aliconnect.nl:444
-# css:
-#   .row.top.bar: background:linear-gradient(to right, rgb(59,125,237), rgb(43,162,76)); color:white;
-#   .row.top.fixed: background-color:rgba(59,125,237,0.8);
-#   .row.aimbanner: background-color:rgba(59,125,237,0.1);
-#   .row.footer: background:linear-gradient(to right, rgba(59,125,237,0.1), rgba(43,162,76,0.1));
 scope:
   - name
   - email
@@ -35,7 +18,6 @@ client:
   servers:
     - url: https://sourceforce.aliconnect.nl/api
 ref:
-  script: https://aliconnect.nl/js/client.js
   wiki: https://sourceforce.aliconnect.nl/wiki
   home: https://sourceforce.aliconnect.nl
   twitterName: AliconnectNL
@@ -45,24 +27,6 @@ css:
   header-color: rgb(43,162,76)
   header-font-family: Segoe UI Light
   link: rgb(59,125,237)
-  # dark-header: rgb(43,162,76)
-# menu:
-#   Organisatie:
-#     className: crm
-#     Contact:
-#       className: filter
-#       href: Contact?$top=100
-#     Company:
-#       className: filter
-#       href: Company?$top=100
-#   Tasks:
-#     className: task
-#     Schakelberichten:
-#       className: task
-#       href: Schakelbericht
-#   System Engineering:
-#     Equipment:
-#       href: Equipment?$top=100
 components:
   schemas:
     Item:
