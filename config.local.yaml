@@ -33,11 +33,11 @@ ws:
   url: wss://aliconnect.nl:444
 client:
   servers:
-    - url: https://aliconnect.nl/api
+    - url: https://sourceforce.aliconnect.nl/api
 ref:
   script: https://aliconnect.nl/js/client.js
-  wiki: https://aliconnect.nl/wiki
-  home: https://aliconnect.nl
+  wiki: https://sourceforce.aliconnect.nl/wiki
+  home: https://sourceforce.aliconnect.nl
   twitterName: AliconnectNL
 css:
   basebg: linear-gradient(to right, rgb(59,125,237), rgb(43,162,76))
