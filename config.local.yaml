@@ -18,9 +18,7 @@ client:
   servers:
     - url: https://sourceforce.aliconnect.nl/api
 ref:
-  wiki: https://sourceforce.aliconnect.nl/wiki
-  home: https://sourceforce.aliconnect.nl
-  twitterName: AliconnectNL
+  home: //sourceforce.aliconnect.nl/wiki/Home
 css:
   basebg: linear-gradient(to right, rgb(59,125,237), rgb(43,162,76))
   basefg: white
